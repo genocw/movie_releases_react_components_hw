@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import MovieList from '../components/MovieList.js'
 
 class MovieBox extends Component {
@@ -48,7 +48,7 @@ class MovieBox extends Component {
         <h1>Upcoming Movie Releases UK</h1>
         </div>
         <MovieList data={this.state.movies}/>
-        <div id="button"><a href="https://www.imdb.com/calendar/?region=gb">View More Upcoming Releases</a></div>
+        <div id="button"><a href="https://www.imdb.com/calendar/?region=gb">Click to View More Upcoming Releases</a></div>
       </div>
     )
   }
