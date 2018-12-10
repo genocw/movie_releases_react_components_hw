@@ -1,32 +1,51 @@
-.App {
+html {
+  height: 100vh;
+  background-image: url("./media/popcorn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.movie-box {
+  width: 100%;
+  height: 100%;
   text-align: center;
+  align-content:
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.title-link {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#title {
+  background-color: rgba(247, 90, 97, 0.8);
 }
 
-.App-link {
-  color: #61dafb;
+.movie-list {
+  background-color: rgba(247, 90, 97, 0.3);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#button {
+  height: 2em;
+  background-color: rgba(247, 90, 97, 0.8);
+  font-size: 2em;
+  text-align: center;
+  
+}
+
+.movie-item {
+  background-color: rgba(255,255,255, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: #5E6E99;
 }
